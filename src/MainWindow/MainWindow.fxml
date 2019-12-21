@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="750.0" style="-fx-background-color: #ffffff00;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainWindow.MainWindowController">
+    <children>
+        <Pane layoutY="82.0" prefHeight="236.0" prefWidth="750.0" style="-fx-background-color: #333333;">
+            <children>
+                <Label layoutX="518.0" layoutY="80.0" text="Have An Account?" textFill="#fffdfd">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+                <Button layoutX="111.0" layoutY="118.0" mnemonicParsing="false" onAction="#open_signup" prefHeight="28.0" prefWidth="106.0" style="-fx-background-color: #ffffff00; -fx-background-radius: 5px; -fx-border-color: #ffffff; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-text-fill: whitesmoke;" text="Sign Up" textFill="WHITE" />
+                <Label layoutX="64.0" layoutY="80.0" text="Dont't Have An Account?" textFill="#fffdfd">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Label>
+                <Button layoutX="538.0" layoutY="118.0" mnemonicParsing="false" onAction="#open_signin" prefHeight="28.0" prefWidth="106.0" style="-fx-background-color:#ffffff00; -fx-background-radius: 5px; -fx-border-color: #ffffff; -fx-border-radius: 5px; -fx-border-width: 1px; -fx-text-fill: whitesmoke;" text="Sign In" textFill="WHITE" />
+                <VBox fx:id="vbox" layoutY="-32.0" prefHeight="300.0" prefWidth="375.0" style="-fx-background-color: #ffffff;" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
