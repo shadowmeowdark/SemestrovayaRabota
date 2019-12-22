@@ -17,9 +17,6 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         primaryStage.setWidth(750);
         primaryStage.setHeight(440);
-        primaryStage.setOnCloseRequest(event ->{
-            System.out.println("sosi");
-                });
         primaryStage.show();
     }
 
